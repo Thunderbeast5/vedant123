@@ -1,1 +1,70 @@
 @import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+    /* @font-face {
+      font-family: 'Inter';
+      src: url('/fonts/Inter-Regular.woff2') format('woff2'),
+          url('/fonts/Inter-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Inter';
+      src: url('/fonts/Inter-Bold.woff2') format('woff2'),
+          url('/fonts/Inter-Bold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal; */
+  /* }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  } */
+  /* @font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  } */
+  @font-face {
+    font-family: 'Quicksand';
+    font-weight: 300;
+    src: url('/fonts/Quicksand-Light.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    src: url('/fonts/Quicksand-Regular.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    src: url('/fonts/Quicksand-Medium.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    src: url('/fonts/Quicksand-SemiBold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    src: url('public/fonts/Quicksand_Bold.otf') format('opentype');
+  }
